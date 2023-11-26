@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+.nav-link{
+    color: blueviolet;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: gold;
+}
+.navbar-brand{
+    margin-left: 0.5px;
+}
+
+.main::before {
+    content: "";
+    background: url(finalimage.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 77%;
+    width: 48%;
+    z-index: -1;
+    opacity: 0.88;
+    top: 5vmax;
+    right: 0vmax;
+}
+.about{
+    margin-top: 10vmax;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 4;
+    border-bottom: 6px solid gold;
+    width: 100%;
+}
+.about img{
+    -webkit-box-shadow: 64px 58px 15px -17px rgba(255,214,255,1);
+    -moz-box-shadow: 64px 58px 15px -17px rgba(255,214,255,1);
+    box-shadow: 64px 58px 15px -17px rgba(255,214,255,1);
+    right: 20%;
+    position: relative;
+    top: 12%;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.progress{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+.provalue-1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(241, 154, 169);
+    height: 25px;
+    width: 0;
+}
+.provalue-2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: pink;
+    height: 25px;
+    width: 0;
+}
+.provalue-3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: pink;
+    height: 25px;
+    width: 0;
+}
+.provalue-4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: pink;
+    height: 25px;
+    width: 0;
+}
+.provalue-5{
+    animation: load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: pink;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: #ab41bc;
+    padding: 5px;
+    font-weight: bold;
+}
+.resumebtn{
+    height: 40px;
+    width: 145px;
+    text-shadow: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(234, 131, 255, 0.877);
+    color: white;
+    border-radius: 2px;
+    align-items: center;
+}
+.contactbtn{
+    height: 40px;
+    width: 145px;
+    color: purple;
+    text-shadow: 2rem;
+    outline: none;
+    border: 1px solid rgb(6, 6, 6);
+    background-color:transparent;
+    border-radius: 2px;
+}
+.contactbtn:hover{
+    background-color: rgb(248, 140, 242);
+    transition: 0.5s;
+    
+}
+.resumebtn:hover{
+    background: transparent;
+    transition: 0.5s;
+    background-color: black;
+}
+.feedback1{
+    display: flex;
+    justify-content: center;
+
+}
+.feedback2{
+    display: flex;
+    justify-content: center;
+    margin-right: 2vmax;
+}
+.btn{
+    margin: 0 47%;
+}
+.form-label{
+    padding: 0 4px;
+}
+.form-control{
+    width: 30%;
+}
+
+.card{
+    border: none;
+    outline: none;
+    height: 250px;
+    width: auto;
+    display: flex;
+    flex-direction: column  ;
+
+}
+.card-body p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-body h4{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+.card p{
+    color: gray;
+}
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&family=Bree+Serif&family=Comforter&family=Lacquer&family=Roboto+Serif:wght@100&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+
+
+
+
+
